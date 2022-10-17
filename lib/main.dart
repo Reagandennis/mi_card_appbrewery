@@ -18,7 +18,6 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.blue,
         body: SafeArea(
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.end,
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
@@ -27,6 +26,7 @@ class MyApp extends StatelessWidget {
               Text(
                 'biker mode',
                 style: TextStyle(
+                    fontFamily: 'Pacifico',
                     fontSize: 35.0,
                     fontWeight: FontWeight.bold,
                     color: Colors.white),
