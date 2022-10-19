@@ -29,6 +29,24 @@ class MyApp extends StatelessWidget {
                     fontSize: 35.0,
                     fontWeight: FontWeight.bold,
                     color: Colors.white),
+              ),
+              Container(
+                child: Row(
+                  children: <Widget>[
+                    Icon(
+                      Icons.phone,
+                      color: Colors.white,
+                    ),
+                    Text(
+                      '0796004050',
+                      style: TextStyle(
+                        color: Colors.teal.shade900,
+                        fontFamily: 'Source Sans Pro',
+                        fontSize: 20.0,
+                      ),
+                    )
+                  ],
+                ),
               )
             ],
           ),
