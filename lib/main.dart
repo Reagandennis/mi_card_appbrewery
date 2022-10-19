@@ -26,7 +26,6 @@ class MyApp extends StatelessWidget {
               Text(
                 'biker mode',
                 style: TextStyle(
-                    fontFamily: 'Pacifico',
                     fontSize: 35.0,
                     fontWeight: FontWeight.bold,
                     color: Colors.white),
